@@ -1,12 +1,12 @@
 <!-- landing page -->
 <div class="container">
 <header class="header clearfix">
-  <img src="logo.png" class="logo"> <!-- incline connect logo float right -->
+  <img src='<%= asset_path "logo.png"%>' alt="incline logo" class="logo"> <!-- incline connect logo float right -->
   <h2 class="headline">A place to connect with vet's and people who want to help vet's.</h2> <!-- float left -->
 </header> <!-- end header -->
 
 <div class="main">
-  <div class="info_box">
+  <div class="info_box clearfix">
     <div class="blerp"> <!-- left box -->
       <h3>Lorem Ipsum</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -31,8 +31,13 @@
   </div>
 
   <div id="community">
+    <h4>Our Community</h4>
+    <div class="users"> <!-- list of our users -->
 
+    </div>
   </div>
-
+  <footer class="clearfix">
+    <p>&copy; InclineHQ 2012</p>
+  </footer>
 </div> <!-- end main -->
 </div> <!-- end container -->
