@@ -12,14 +12,18 @@
 }
 
 body {
-  background: #ccc;
+  background: url(bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   width: 1080px;
   margin: 0 auto;
 }
 
 
 .container {
-  
+  background-color: #ccc;
 }
 
 .header {
