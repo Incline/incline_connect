@@ -2,6 +2,11 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+html {
+  margin: 0;
+  padding: 0;
+}
+
 .clearfix:after {
   content: ".";
   display: block;
@@ -37,12 +42,12 @@ body {
 
 .logo {
   float: right;
-  padding: 10px;
+  padding: 0 10px;
 }
 
 .headline {
   float: left;
-  padding: 10px;
+  padding: 0 10px;
 }
 
 .main {
